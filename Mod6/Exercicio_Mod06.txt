@@ -1,0 +1,21 @@
+1° - Abrir os olhos.
+
+2° - Despertador está tocando ?
+	Sim: Desligar o despertador.
+	Não: Seguir.
+
+3° - Levantar da cama.
+
+4° - Ir até o banheiro.
+
+5° - Ligar o chuveiro.
+
+6° - Tomar banho.
+
+7° - Desligar o chuveiro.
+
+8° - Enxugar-se
+
+9° - Colocar a roupa.
+
+10° - Ir para o trabalho. 
