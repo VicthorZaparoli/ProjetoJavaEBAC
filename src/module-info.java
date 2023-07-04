@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Victo
- *
- */
-module ProjetoJavaEBAC {
-}

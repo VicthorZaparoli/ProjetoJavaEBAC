@@ -8,9 +8,7 @@ package exemplos_mod07;
  *
  */
 public class itemVenda {
-	
+
 	private int quantidade;
-	
-	
 
 }

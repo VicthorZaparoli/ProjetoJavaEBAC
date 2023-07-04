@@ -10,7 +10,7 @@ package exemplos_mod07;
 public class Produto {
 
 	private int codigo;
-	
+
 	private String nome;
 
 }

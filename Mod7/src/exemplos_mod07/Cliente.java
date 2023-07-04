@@ -1,6 +1,3 @@
-/**
- * 
- */
 package exemplos_mod07;
 
 /**
@@ -10,9 +7,9 @@ package exemplos_mod07;
 public class Cliente {
 
 	private int codigo;
-	
+
 	private String nome;
-	
+
 	private String endereco;
 
 	public int getCodigo() {
@@ -38,12 +35,9 @@ public class Cliente {
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
-	
-	public void cadastrarEndereco (String endereco) {   
-		this.endereco = endereco;
-	} 
-	
-	
 
+	public void cadastrarEndereco(String endereco) {
+		this.endereco = endereco;
+	}
 
 }
