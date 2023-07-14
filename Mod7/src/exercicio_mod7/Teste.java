@@ -2,7 +2,7 @@ package exercicio_mod7;
 
 public class Teste {
 	
-	/** 
+	/** Testando a classe criada, atribuindo os parâmetros e chamando os métodos.
 	 * 
 	 * @param args
 	 */

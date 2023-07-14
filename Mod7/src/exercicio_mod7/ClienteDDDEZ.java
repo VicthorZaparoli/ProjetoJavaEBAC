@@ -24,7 +24,7 @@ public class ClienteDDDEZ {
 		return cnpj;
 	}
 	
-	/** Codigo do cliente no sistema.
+	/** Inserir codigo do cliente no sistema.
 	 * 
 	 * @param codigo 
 	 */
@@ -32,6 +32,10 @@ public class ClienteDDDEZ {
 		this.codigo = codigo;
 	}
 	
+	/** Retorna o código do cliente
+	 * 
+	 * @return
+	 */
 	public long getCodigo() {
 		return codigo;
 	}
@@ -47,7 +51,7 @@ public class ClienteDDDEZ {
 	}
 	
 	
-	/** Método que permite inserir a razao social.
+	/** Inserir a razao social.
 	 * 
 	 * @param razaoSocial
 	 */
@@ -64,19 +68,35 @@ public class ClienteDDDEZ {
 	public String getNomeFantasia() {
 		return nomeFantasia;
 	}
-
+	
+	/** Inserir o nome fantasia do cliente.
+	 * 
+	 * @param nomeFantasia
+	 */
 	public void setNomeFantasia(String nomeFantasia) {
 		this.nomeFantasia = nomeFantasia;
 	}
 
+	/** Retorna o endereço do cliente.
+	 * 
+	 * @return
+	 */
 	public String getEndereco() {
 		return endereco;
 	}
 
+	/** Inserir o endereço do cliente.
+	 *  
+	 * @param endereco
+	 */
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
 		
+	/** Retorna o último certifico do cliente
+	 * 
+	 * @return
+	 */
 	public String ultimoCertificado() {
 		return "CERTIFICADO VALIDO!";
 	} 
