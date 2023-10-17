@@ -8,7 +8,7 @@ import java.util.Collections;
 
 public class Exercicio2 {
 	public static void main(String args[]) {
-		List<String> pessoas = new ArrayList<String>(); // Luana-F, João-M, Tijolo-M
+		List<String> pessoas = new ArrayList<String>(); // Maria-F, João-M, Lucas-M
 		List<String> homens = new ArrayList<String>(); //
 		List<String> mulheres = new ArrayList<String>(); //
 		Scanner ler = new Scanner(System.in);
@@ -18,7 +18,6 @@ public class Exercicio2 {
 		String[] textoSeparado = nomes.replace(" ", "").split(",");
 		for (Integer i = 0; i < textoSeparado.length; i++) {
 			pessoas.add(textoSeparado[i]);
-			// System.out.println(textoSeparado[i].contains("-M"));
 			if (textoSeparado[i].contains("-M") == true) {
 				homens.add(textoSeparado[i]);
 			} else { mulheres.add(textoSeparado[i]); }
