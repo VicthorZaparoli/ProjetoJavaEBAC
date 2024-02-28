@@ -40,11 +40,11 @@ public class Exemplo {
 		do {
 			System.out.print("Digite o nome: ");
 			nome = ler.nextLine();
-			if (nome.contains(" ") || nome.contains("")) {
+			if (nome.isBlank()) {
 				System.out.println("Erro: Coloque um nome válido.");
 				continue;
 			}
-		} while (nome.equals("") || nome.contains(" "));
+		} while (nome.isBlank());
 		String sexo = "";
 		do {
 			System.out.print("Digite o sexo, 'M' para masculino e 'F' para feminino: ");
