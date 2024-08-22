@@ -1,5 +1,4 @@
 package br.com.viktor.exercicio;
-
 import java.util.*;
 
 public abstract class Montadora {
