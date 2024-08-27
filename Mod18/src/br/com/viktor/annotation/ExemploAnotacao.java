@@ -34,4 +34,6 @@ public @interface ExemploAnotacao {
 //Regras para criação -> 1° Quando há apenas um único parâmentro, o nome dele deverá ser "value",
 //2° sobre uso de excessão, 3° O método não deve possuir corpo = método abstratro,  entre outras.....
 
+
+
 //Exercício do Módulo. Criar uma annotation "Tabela" ela vai receber um valor que é o nome da tabela. Subir no github
