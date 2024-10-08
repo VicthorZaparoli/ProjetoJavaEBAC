@@ -1,6 +1,7 @@
 package br.com.viktor.observer;
 
-import java.util.*;
+import java.util.List;
+import java.util.ArrayList;
 
 public class Jornalista implements Subject {
 	public List<Observer> observers = new ArrayList<>();
